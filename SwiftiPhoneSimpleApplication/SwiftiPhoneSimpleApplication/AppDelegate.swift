@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftiPhoneSimpleApplication
 //
-//  Created by kakao on 2016. 4. 15..
+//  Created by Stuart on 2016. 4. 15..
 //  Copyright © 2016년 staryun. All rights reserved.
 //
 
