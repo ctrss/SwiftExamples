@@ -9,11 +9,26 @@
 import UIKit
 
 class TabController: UITabBarController {
+    
+    let tableView = UIView()
+    let tabBtn1 = UIButton()
+    let tabBtn2 = UIButton()
+    let tabBtn3 = UIButton()
+    let tabBtn4 = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+/*        tableView.frame = CGRectMake(0, 20, self.view.frame.size.width, 60)
+        tableView.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
+        
+        
+        tabBtn1.setTitle("First", forState:UIControlState.Normal)
+        tabBtn2.setTitle("Second", forState:UIControlState.Normal)
+        tabBtn3.setTitle("Third", forState:UIControlState.Normal)
+        tabBtn4.setTitle("Forth", forState:UIControlState.Normal)*/
     }
 
     override func didReceiveMemoryWarning() {

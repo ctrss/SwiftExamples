@@ -18,4 +18,7 @@ class SyTableView: UITableView {
     }
     */
 
+    func AddRow() {
+        
+    }
 }

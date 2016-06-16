@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="1608" y="314"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Controller-->
         <scene sceneID="fwL-90-C5Y">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cz8-oq-XYg" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cz8-oq-XYg" customClass="TabController" customModule="SwiftiPhoneSimpleApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="2yH-RX-jbW">
                         <autoresizingMask key="autoresizingMask"/>
@@ -76,6 +76,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="p58-hK-hCs" kind="relationship" relationship="viewControllers" id="JXs-2x-kJy"/>
+                        <segue destination="p58-hK-hCs" kind="relationship" relationship="viewControllers" id="rvO-l1-KnP"/>
+                        <segue destination="p58-hK-hCs" kind="relationship" relationship="viewControllers" id="Euo-KM-bhF"/>
+                        <segue destination="p58-hK-hCs" kind="relationship" relationship="viewControllers" id="9KW-Y6-9Lg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxL-Fj-xAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -83,4 +86,7 @@
             <point key="canvasLocation" x="796" y="314"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9KW-Y6-9Lg"/>
+    </inferredMetricsTieBreakers>
 </document>
